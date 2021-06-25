@@ -1,0 +1,19 @@
+﻿  Source.cpp
+C:\Users\Nimesh\source\repos\Project1\Source.cpp(73,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Nimesh\source\repos\Project1\Source.cpp(73,14): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Nimesh\source\repos\Project1\Source.cpp(74,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Nimesh\source\repos\Project1\Source.cpp(74,14): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Nimesh\source\repos\Project1\Source.cpp(75,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Nimesh\source\repos\Project1\Source.cpp(75,14): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Nimesh\source\repos\Project1\Source.cpp(76,21): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Nimesh\source\repos\Project1\Source.cpp(76,14): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Nimesh\source\repos\Project1\Source.cpp(111,19): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Nimesh\source\repos\Project1\Source.cpp(111,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Nimesh\source\repos\Project1\Source.cpp(112,19): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Nimesh\source\repos\Project1\Source.cpp(112,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Nimesh\source\repos\Project1\Source.cpp(113,19): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Nimesh\source\repos\Project1\Source.cpp(113,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Nimesh\source\repos\Project1\Source.cpp(114,19): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Nimesh\source\repos\Project1\Source.cpp(114,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Nimesh\source\repos\Project1\Source.cpp(130,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Project1.vcxproj -> C:\Users\Nimesh\source\repos\Project1\Debug\Project1.exe
