@@ -43,6 +43,44 @@ void randomize() {
 	}
 }
 
+void insertionSort(int beg, int end)
+{
+	int i, j;
+	line temp;
+	int gallop = 0;
+	gallop += 1;
+	printf("Insertion sort started %d\n", gallop);
+	for (i = beg + 1; i <= end; i++)
+	{
+		temp = sortln[i];
+		j = i - 1;
+		while (j >= beg && sortln[j].len > temp.len)
+		{
+			sortln[j + 1] = sortln[j];
+			j = j - 1;
+			glClear(GL_COLOR_BUFFER_BIT);
+			drawlines();
+			glutSwapBuffers();
+		}
+		sortln[j + 1] = temp;
+		glClear(GL_COLOR_BUFFER_BIT);
+		drawlines();
+		glutSwapBuffers();
+	}
+}
+
+void drawlines() {
+	int start = 50;
+	for (int i = 0; i < max; i++) {
+		glColor3f(sortln[i].c.r, sortln[i].c.g, sortln[i].c.b);
+		glBegin(GL_LINES);
+		glVertex2f(start, 10);
+		glVertex2f(start, 10 + sortln[i].len);
+		glEnd();
+		start += 10;
+	}
+}
+
 void choice(int ch) {
 	sorttype = ch;
 	display();
