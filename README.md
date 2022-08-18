@@ -3,6 +3,8 @@ Timsort-Algorithm Visualizaer is a Computer Graphics Mini-Project - evaluated as
 
 In this project, we present 2D dynamic visualizations of the sorting process of the algorithm. We have used OpenGL library to create the 2D graphics.
 
+The source code is contained in source.cpp file.
+
 # Window Interface Images
 ![Screenshot (3)](https://user-images.githubusercontent.com/43904649/185392383-70dd077b-0dd0-46ef-a04b-d28994a0cf54.png)
 ![Screenshot (4)](https://user-images.githubusercontent.com/43904649/185392433-c78240ac-d728-4b7f-a86c-ce577fdaac26.png)
